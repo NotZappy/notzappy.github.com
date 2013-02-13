@@ -13,7 +13,7 @@ This is meant to be a no-frills guide with little extra info. A more comprehensi
 <strong><span class="size4">Step 1: Download and install EAC</span></strong><br/>
 Download the installer and fire it up.<br/>
 <br/>
-<img src="http://img.photobucket.com/albums/v300/ca_aok/eac01.png" alt="http://img.photobucket.com/albums/v300/ca_aok/eac01.png" onclick="lightbox.init(this,500);" class="scale_image"/><br/>
+<img src="img/eac01.png" alt="img/eac01.png" /><br/>
 <br/>
 Eventually you'll get to a screen like this. Make sure you install AccurateRip, CDRDAO, CTDB and freedb as a bare minimum. FLAC will be useful as well if you don't have it separately installed. GD3 is only useful if you want to pay for metadata results. I assume you don't.<br/>
 <br/>
@@ -22,44 +22,44 @@ Note: The above screenshot is from Beta 3. The new Beta 3 adds the option to inc
 <strong><span class="size4">Step 2: Start EAC</span></strong><br/>
 <br/>
 
-<img src="http://img.photobucket.com/albums/v300/ca_aok/eac02.png" alt="http://img.photobucket.com/albums/v300/ca_aok/eac02.png" onclick="lightbox.init(this,500);" class="scale_image"/><br/>
+<img src="img/eac02.png" alt="img/eac02.png" /><br/>
 <br/>
 When you first start EAC, you'll see a screen like this one. Hit "Cancel". Next, put a popular CD into your drive, preferably not one that was recently released (a few months old at least). You'll see a window like the one below appear. If you have an older version of EAC or dBpoweramp installed, it's likely AccurateRip was already configured, and this may not appear.<br/>
 <br/>
-<img src="http://img.photobucket.com/albums/v300/ca_aok/eac03.png" alt="http://img.photobucket.com/albums/v300/ca_aok/eac03.png" onclick="lightbox.init(this,500);" class="scale_image"/><br/>
+<img src="img/eac03.png" alt="img/eac03.png" /><br/>
 <br/>
 Hit Configure. It may take a few minutes. Hit "Ok" afterward. Once again, if you have an older version of EAC or dBpoweramp installed, it's likely AccurateRip was already configured, and this may not appear.<br/>
 <br/>
 <strong><span class="size4">Step 3: EAC Options</span></strong><br/>
 All of the options dialogs can be found from the EAC menu at the top of the screen. <br/>
 <br/>
-<img src="http://img.photobucket.com/albums/v300/ca_aok/eac04.png" alt="http://img.photobucket.com/albums/v300/ca_aok/eac04.png" onclick="lightbox.init(this,500);" class="scale_image"/><br/>
+<img src="img/eac04.png" alt="img/eac04.png" /><br/>
 <br/>
 
 Start with EAC Options. Any tabs not pictured are completely optional settings, or are irrelevant to ripping.<br/>
 <br/>
-<img src="http://img.photobucket.com/albums/v300/ca_aok/eac05.png" alt="http://img.photobucket.com/albums/v300/ca_aok/eac05.png" onclick="lightbox.init(this,500);" class="scale_image"/><br/>
+<img src="img/eac05.png" alt="img/eac05.png" /><br/>
 <br/>
 ake sure you set the green highlighted settings as shown. If you're using an older version of EAC, make sure "No use of null samples for CRC calculations is <strong>UNCHECKED</strong>. The rest is optional, choose as you will. Locking the drive tray during extraction isn't a bad idea though.<br/>
 <br/>
-<img src="http://img.photobucket.com/albums/v300/ca_aok/eac06.png" alt="http://img.photobucket.com/albums/v300/ca_aok/eac06.png" onclick="lightbox.init(this,500);" class="scale_image"/><br/>
+<img src="img/eac06.png" alt="img/eac06.png" /><br/>
 <br/>
 These settings are pretty much all optional and self explanatory. I'd recommend using Alternate CD play routines and disabling autostart though.<br/>
 <br/>
 The "Create log files always in english language" is <strong>very</strong> important for our international users. This will let you keep EAC's language as your native one, but write the log file in English, allowing it to pass our logchecker without needing to be rescored manually.<br/>
 
 <br/>
-<img src="http://img.photobucket.com/albums/v300/ca_aok/eac07.png" alt="http://img.photobucket.com/albums/v300/ca_aok/eac07.png" onclick="lightbox.init(this,500);" class="scale_image"/><br/>
+<img src="img/eac07.png" alt="img/eac07.png" /><br/>
 <br/>
 If your drive is capable of reading UPC/ISRC codes and CD-Text (you can only really figure this out by trial and error), you're welcome to keep the top two options checked. Otherwise, uncheck them.<br/>
 <br/>
 Other than that, these settings are pretty much ideal. I wouldn't recommend using more than 1 compressor thread even if you have a multicore computer. It doesn't take very long compared to the track extraction anyway. Note that in tests run by punkmeup, disabling the queue of external compressors in the background fixed an issue where EAC was generating WAV files instead of FLAC, so I've made that a required option. It should have no bearing on the rip quality. If rip queueing works for you (it does for me), feel free to leave it enabled.<br/>
 <br/>
-<img src="http://img.photobucket.com/albums/v300/ca_aok/eac08.png" alt="http://img.photobucket.com/albums/v300/ca_aok/eac08.png" onclick="lightbox.init(this,500);" class="scale_image"/><br/>
+<img src="img/eac08.png" alt="img/eac08.png" /><br/>
 <br/>
 Friends don't let friends normalize their EAC rips. Don't ever do it. It will instantly be given a 0% by the logchecker.<br/>
 <br/>
-<img src="http://img.photobucket.com/albums/v300/ca_aok/eac09.png" alt="http://img.photobucket.com/albums/v300/ca_aok/eac09.png" onclick="lightbox.init(this,500);" class="scale_image"/><br/>
+<img src="img/eac09.png" alt="img/eac09.png" /><br/>
 <br/>
 As shown in the screenshot above here is the proper way to name tracks.<br/>
 
@@ -77,7 +77,7 @@ Don't replace spaces by underscores. It looks ridiculous.<br/>
 
 <strong><span class="size4">Step 4: Drive Options</span></strong><br/>
 <br/>
-<img src="http://img.photobucket.com/albums/v300/ca_aok/eac10.png" alt="http://img.photobucket.com/albums/v300/ca_aok/eac10.png" onclick="lightbox.init(this,500);" class="scale_image"/><br/>
+<img src="img/eac10.png" alt="img/eac10.png" /><br/>
 <br/>
 Start by hitting "Detect Read Features...". This will actually take a few minutes. The only feature detection that actually matters is Accurate Stream. If your drive can use it, checkmark the setting (most modern drives have Accurate Stream). If it can't, don't.<br/>
 <br/>
@@ -85,12 +85,12 @@ Even if your drive doesn't cache audio, just do us a favour and leave that check
 <br/>
 Do not use C2, even if EAC thinks you can. Most drives have terrible C2 error implementation.<br/>
 <br/>
-<img src="http://img.photobucket.com/albums/v300/ca_aok/eac11.png" alt="http://img.photobucket.com/albums/v300/ca_aok/eac11.png" onclick="lightbox.init(this,500);" class="scale_image"/><br/>
+<img src="img/eac11.png" alt="img/eac11.png" /><br/>
 <br/>
 Hit "Autodetect read command now". It shouldn't take long. Leave everything else unchecked unless you're having problems. You can checkmark "CD-Text Read capable drive" if you want to test whether your drive can do it. If it can, great, otherwise, uncheck it. It's unlikely you'll ever use that feature anyway.<br/>
 
 <br/>
-<img src="http://img.photobucket.com/albums/v300/ca_aok/eac12.png" alt="http://img.photobucket.com/albums/v300/ca_aok/eac12.png" onclick="lightbox.init(this,500);" class="scale_image"/><br/>
+<img src="img/eac12.png" alt="img/eac12.png" /><br/>
 <br/>
 If you did the AccurateRip configuration at the start of this guide, the top half here will be greyed out. If not, you'll need to find your read offset correction from <a href="http://www.accuraterip.com/driveoffsets.htm" target="_blank" rel="noreferrer">this list</a>. Don't use a combined read/write offset.<br/>
 <br/>
@@ -101,17 +101,17 @@ If you want to figure out whether your drive needs "Overread into Lead-in and Le
 
 Remember to check "Use AccurateRip with this drive" again once you're finished. AccurateRip is necessary for a 100% log.<br/>
 <br/>
-<img src="http://img.photobucket.com/albums/v300/ca_aok/eac13.png" alt="http://img.photobucket.com/albums/v300/ca_aok/eac13.png" onclick="lightbox.init(this,500);" class="scale_image"/><br/>
+<img src="img/eac13.png" alt="img/eac13.png" /><br/>
 <br/>
 Pretty much every drive should work with the settings shown. If yours stalls on detecting gaps or detects gaps that are obviously wrong (like 30 second gaps on a non-live album), try Detection method B or C. If A, B, and C all fail, you can switch "Secure" to "Accurate" and try again.<br/>
 <br/>
 <strong><span class="size4">Step 5: Metadata Options</span></strong><br/>
 <br/>
-<img src="http://img.photobucket.com/albums/v300/ca_aok/eac14.png" alt="http://img.photobucket.com/albums/v300/ca_aok/eac14.png" onclick="lightbox.init(this,500);" class="scale_image"/><br/>
+<img src="img/eac14.png" alt="img/eac14.png" /><br/>
 <br/>
 Here's where you pick your metadata provider. If you did install GD3, it'll be in the list. You can only rip 10 discs before you have to pay for a subscription though. Otherwise, you have a choice between the MusicBrainz plugin (CTDB), freedb plugin and EAC's native freedb support. I'm not really sure what the big difference is, I'm guessing it's the cover+lyrics. Anyway, change those settings above if you wish.<br/>
 <br/>
-<img src="http://img.photobucket.com/albums/v300/ca_aok/eac15.png" alt="http://img.photobucket.com/albums/v300/ca_aok/eac15.png" onclick="lightbox.init(this,500);" class="scale_image"/><br/>
+<img src="img/eac15.png" alt="img/eac15.png" /><br/>
 
 <br/>
 If you use EAC's native freedb instead, the settings should look like this. Make sure you put an email at the top, it doesn't need to be real. Hit "Get active freedb server list". Then checkmark the last option.<br/>
@@ -119,7 +119,7 @@ If you use EAC's native freedb instead, the settings should look like this. Make
 <br/>
 <strong><span class="size4">Step 6: Compression Options</span></strong><br/>
 <br/>
-<img src="http://img.photobucket.com/albums/v300/ca_aok/eac16.png" alt="http://img.photobucket.com/albums/v300/ca_aok/eac16.png" onclick="lightbox.init(this,500);" class="scale_image"/><br/>
+<img src="img/eac16.png" alt="img/eac16.png" /><br/>
 <br/>
 Set up this tab exactly as shown. You'll have to browse to the path where you have flac.exe, if you installed it with EAC it's in C:\Program Files (x86)\Exact Audio Copy\FLAC\flac.exe. If you installed it separately it's wherever you installed it. The bit rate and high/low quality have no effect on the rip.<br/>
 <br/>
@@ -133,7 +133,7 @@ It takes no extra effort on your part, just copy and paste that into the additio
 Also, as of Beta 3 you may use the %tracknr1% variable instead of %tracknr% if you would like to have no leading zeroes in the track number field (like XLD does). tracknr1 will use, for example, '1' instead of '01'. <br/>
 <br/>
 
-<img src="http://img.photobucket.com/albums/v300/ca_aok/eac17.png" alt="http://img.photobucket.com/albums/v300/ca_aok/eac17.png" onclick="lightbox.init(this,500);" class="scale_image"/><br/>
+<img src="img/eac17.png" alt="img/eac17.png" /><br/>
 <br/>
 Leave everything unchecked except the last option.<br/>
 <br/>
